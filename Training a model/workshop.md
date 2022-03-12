@@ -85,7 +85,7 @@ When you train a model, you have to do something about the data that's missing. 
 
 1) In the component palette to the left of the canvas, expand the **Data Transformation** section and find the **Select Columns in Dataset** component
 2) Drag the **Select Columns in Dataset** component onto the canvas. Drop the component below the dataset component
-3) Connect the **Automobile price data (Raw)** dataset to the **Select Columns in Dataset** component. Drag from the dataset's output port, which is the small circle at the bottom of the dataset on the canvas, to the input port of **Select Columns in Dataset**, which is the small circle at the top of the component
+3) Connect the **Automobile price data (Raw)** dataset to the **Select Columns in Dataset** component. Drag from the dataset's output port, which is the small circle at the bottom of the dataset on the canvas, to the input port of **Select Columns in Dataset**, which is the small circle at the top of the component  
 ![Connect modules](images/connect-modules.gif)  
 4) Select the **Select Columns in Dataset** component
 5) In the component details pane to the right of the canvas, select **Edit column**
