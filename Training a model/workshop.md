@@ -23,3 +23,4 @@ In this part we are going to train a model from scratch by:
 ### Training the actual model
 
 ### Evaluating the model  
+
