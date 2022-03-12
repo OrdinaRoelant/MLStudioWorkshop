@@ -63,7 +63,7 @@ A pipeline runs on a compute target, which is a compute resource that's attached
 3) Enter a name for the compute resource using your prefix from the naming convention: [prefix]-compute
 4) **Virtual machine type** should be CPU and pick **Standard_DS3_v2** as the virtual machine size
 5) Select **Create**
-**NOTE**: It will take a couple of minutes for the compute resource to be created. You can continue the steps, but be mindful when you get to the training part.
+**NOTE**: It will take a couple of minutes for the compute resource to be created. You can continue the steps, but be mindful when you get to the training part. You will have to wait for the resource to be created and add it, or circle back and select it when you need it.
 
 ## Importing your data 
 
