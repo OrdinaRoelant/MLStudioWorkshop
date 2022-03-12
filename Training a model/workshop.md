@@ -56,10 +56,13 @@ When the process is finished, and this can take several minutes, a deployment su
 4) At the top of the canvas, select the default pipeline name **Pipeline-Created-on**. Rename it to *Automobile price prediction*. The name doesn't need to be unique.
 
 ### Set the default compute target
-A pipeline runs on a compute target, which is a compute resource that's attached to your workspace. For this workshop we have created a shared compute resource you will need your workspace to point to.
+A pipeline runs on a compute target, which is a compute resource that's attached to your workspace. After you create a compute target, you can reuse it for future runs.
 
 1) Next to the pipeline name, select the Gear icon ![Gear](images/gear-icon.png)  at the top of the canvas to open the Settings pane
-2) In the Settings pane to the right of the canvas, select **Select compute target** and select the **compute-workshop** instance
+2) In the Settings pane to the right of the canvas, if you already have an available compute target, you can select it to run this pipeline.
+3) Enter a name for the compute resource using your prefix from the naming convention: [prefix]-compute
+4) Select **Save**  
+**NOTE**: It will take a couple of minutes for the compute resource to be created. You can continue the steps, but be mindful when you get to the training part.
 
 ## Importing your data 
 
