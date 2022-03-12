@@ -8,7 +8,7 @@ This workshop contains four distinct tasks that will help you with understanding
 
 In this part we are going to train a model from scratch by:
 
-     ✔ [Creating a pipeline](#create-a-new-pipeline)  
+     ✔ [Creating a pipeline](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Training%20a%20model/workshop.md#create-a-new-pipeline)  
      ✔ Importing your data  
      ✔ Prepare the data for training  
      ✔ Training the actual model  
