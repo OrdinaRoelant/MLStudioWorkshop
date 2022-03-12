@@ -17,6 +17,9 @@ In this part we are going to deploy a model by:
 In this part of the workshop we are going to deploy the model we trained in [part 1](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Training%20a%20model/workshop.md). Be sure to finish that part first, before continuing with the deployment part.
 
 ## Create a real-time inference pipeline  
+To deploy your pipeline, you must first convert the training pipeline into a real-time inference pipeline. This process removes training components and adds web service inputs and outputs to handle requests.
+
+1) Above the pipeline canvas, select **Create inference pipeline** > **Real-time inference pipeline**.
 
 ## Create an inferencing cluster  
 
