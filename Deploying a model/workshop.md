@@ -3,8 +3,7 @@ This workshop is based on the Microsoft tutorials for learning to deploy a model
 This workshop contains four distinct tasks that will help you with understanding the moving parts when:
 1) [Training a model](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Training%20a%20model/workshop.md)
 2) [**Deploying a model**](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Deploying%20a%20model/workshop.md)
-3) [Versioning a model](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Versioning%20a%20model/workshop.md)
-4) [Running automated machine learning experiments](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Running%20auto%20ML%20experiments/workshop.md)
+3) [Running automated machine learning experiments](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Running%20auto%20ML%20experiments/workshop.md)
 
 In this part we are going to deploy a model by:
 
@@ -47,4 +46,4 @@ In the **Consume** tab, you can find sample consumption code, security keys, and
 In the **Deployment logs** tab, you can find the detailed deployment logs of your real-time endpoint  
 2) To test your endpoint, go to the **Test** tab. From here, you can enter test data and select Test verify the output of your endpoint  
 
-It is now for part III: [Versioning our model](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Versioning%20a%20model/workshop.md)
+It is now time for part III: [Running automated machine learning experiments](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Running%20auto%20ML%20experiments/workshop.md)

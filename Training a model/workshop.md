@@ -3,8 +3,7 @@ This workshop is based on the Microsoft tutorials for learning to train a model 
 This workshop contains four distinct tasks that will help you with understanding the moving parts when:
 1) [**Training a model**](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Training%20a%20model/workshop.md)
 2) [Deploying a model](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Deploying%20a%20model/workshop.md)
-3) [Versioning a model](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Versioning%20a%20model/workshop.md)
-4) [Running automated machine learning experiments](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Running%20auto%20ML%20experiments/workshop.md)
+3) [Running automated machine learning experiments](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Running%20auto%20ML%20experiments/workshop.md)
 
 In this part we are going to train a model from scratch by:
 
@@ -204,4 +203,4 @@ The following statistics are shown for your model:
 
 For each of the error statistics, smaller is better. A smaller value indicates that the predictions are closer to the actual values. For the coefficient of determination, the closer its value is to one (1.0), the better the predictions.
 
-It is now for part II: [Deploying our model](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Deploying%20a%20model/workshop.md)
+It is now time for part II: [Deploying our model](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Deploying%20a%20model/workshop.md)
