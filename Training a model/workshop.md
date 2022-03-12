@@ -9,10 +9,10 @@ This workshop contains four distinct tasks that will help you with understanding
 In this part we are going to train a model from scratch by:
 
 ✔ [Creating a pipeline](#create-a-new-pipeline)  
-✔ [Importing your data](#importing-your-data)
-✔ [Prepare the data for training](#prepare-the-data-for-training)
-✔ [Training the actual model](#training-the-actual-model)
-✔ [Evaluating the model](#evaluating-the-model)
+✔ [Importing your data](#importing-your-data)  
+✔ [Prepare the data for training](#prepare-the-data-for-training)  
+✔ [Training the actual model](#training-the-actual-model)  
+✔ [Evaluating the model](#evaluating-the-model)  
 
 ### Create a new pipeline
 
