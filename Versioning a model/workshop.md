@@ -6,12 +6,8 @@ This workshop contains four distinct tasks that will help you with understanding
 3) Versioning a model
 4) Running automated machine learning experiments
 
-In this part we are going to train a model from scratch by:
+In this part we are going to version a model by:
 
-     ✔ Creating a pipeline  
-     ✔ Importing your data  
-     ✔ Prepare the data for training  
-     ✔ Training the actual model  
-     ✔ Evaluating the model  
+     ✔ TBD
 
 ### 
