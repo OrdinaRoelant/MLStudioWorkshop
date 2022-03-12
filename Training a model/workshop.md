@@ -180,7 +180,7 @@ Note: Experiments group similar pipeline runs together. If you run a pipeline mu
 
 You can view run status and details at the top right of the canvas.
 
-If this is the first run, it may take up to 20 minutes for your pipeline to finish running. The default compute settings have a minimum node size of 0, which means that the designer must allocate resources after being idle. Repeated pipeline runs will take less time since the compute resources are already allocated. Additionally, the designer uses cached results for each component to further improve efficiency.
+If this is the first run, it may take a couple of minutes for your pipeline to finish running, but you can follow along in real-time. The default compute settings have a minimum node size of 0, which means that the designer must allocate resources after being idle. Repeated pipeline runs will take less time since the compute resources are already allocated. Additionally, the designer uses cached results for each component to further improve efficiency.
 
 ## View scored labels
 

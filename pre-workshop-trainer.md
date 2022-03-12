@@ -1,0 +1,1 @@
+✔ Create AKS cluster **aks-workshop**
