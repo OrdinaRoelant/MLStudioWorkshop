@@ -111,7 +111,7 @@ Your dataset still has missing values after you remove the **normalized-losses**
 7) In the **Clean Missing Data** properties, select **Remove entire row** under **Cleaning mode** (4th from the top)
 8) In the component details pane to the right of the canvas, select the **Comment** box, and enter *Remove missing value rows*.
 
-Your pipeline should now look something like this:
+Your pipeline should now look something like this:  
 ![Pipeline example](images/pipeline-clean.png)  
 
 ### Training the actual model
