@@ -1,4 +1,4 @@
-This workshop is based on the Microsoft tutorials for learning to train a model in Azure Machine Learning Studio.
+This workshop is based on the Microsoft tutorials for learning to deploy a model in Azure Machine Learning Studio.
 
 This workshop contains four distinct tasks that will help you with understanding the moving parts when:
 1) [Training a model](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Training%20a%20model/workshop.md)
@@ -8,6 +8,18 @@ This workshop contains four distinct tasks that will help you with understanding
 
 In this part we are going to deploy a model by:
 
-     ✔ TBD
+✔ Create a real-time inference pipeline  
+✔ Create an inferencing cluster  
+✔ Deploy the real-time endpoint  
+✔ Test the real-time endpoint  
 
-### 
+## Training a model
+In this part of the workshop we are going to deploy the model we trained in [part 1](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Training%20a%20model/workshop.md). Be sure to finish that part first, before continuing with the deployment part.
+
+## Create a real-time inference pipeline  
+
+## Create an inferencing cluster  
+
+## Deploy the real-time endpoint  
+
+## Test the real-time endpoint  

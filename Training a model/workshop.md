@@ -14,15 +14,15 @@ In this part we are going to train a model from scratch by:
 ✔ [Training the actual model](#training-the-actual-model)  
 ✔ [Evaluating the model](#evaluating-the-model)  
 
-### Naming convention
+## Naming convention
 For this workshop we are going to share an Azure subscription and we will be using the same resource group. It is therefore highly recommended to prefix your resources names with you initials and age. In my case, for Roelant Dieben, 43 years old, I am going to prefix rd43-[resource name]
 
-### Create a new pipeline
+## Create a new pipeline
 Azure Machine Learning pipelines organize multiple machine learning and data processing steps into a single resource. Pipelines let you organize, manage, and reuse complex machine learning workflows across projects and users.
 
 To create an Azure Machine Learning pipeline, you need an Azure Machine Learning workspace. In this section, you learn how to create both these resources.
 
-#### Create a new workspace
+### Create a new workspace
 You need an Azure Machine Learning workspace to use the designer. The workspace is the top-level resource for Azure Machine Learning, it provides a centralized place to work with all the artifacts you create in Azure Machine Learning. 
 
 1) Sign in to the [Azure Portal](https://portal.azure.com) using the credentials provided to you
@@ -48,20 +48,20 @@ You need an Azure Machine Learning workspace to use the designer. The workspace 
 When the process is finished, and this can take several minutes, a deployment success message appears.
 9) To view the new workspace, select **Go to resource**
 
-#### Create the pipeline
+### Create the pipeline
 1) Click on the Studio web URL in the workspace overview
 2) Select **Designer**  
 ![Designer > Easy-to-use prebuilt components](images/launch-designer.png)
 3) Select **Easy-to-use prebuilt components**
 4) At the top of the canvas, select the default pipeline name **Pipeline-Created-on**. Rename it to *Automobile price prediction*. The name doesn't need to be unique.
 
-#### Set the default compute target
+### Set the default compute target
 A pipeline runs on a compute target, which is a compute resource that's attached to your workspace. For this workshop we have created a shared compute resource you will need your workspace to point to.
 
 1) Next to the pipeline name, select the Gear icon ![Gear](images/gear-icon.png)  at the top of the canvas to open the Settings pane
 2) In the Settings pane to the right of the canvas, select **Select compute target** and select the **compute-workshop** instance
 
-### Importing your data 
+## Importing your data 
 
 There are several sample datasets included in the designer for you to experiment with. For this workshop, use Automobile price data (Raw).
 
@@ -69,17 +69,17 @@ There are several sample datasets included in the designer for you to experiment
 2) Select the dataset **Automobile price data (Raw)**, and drag it onto the canvas
 ![Gear](images/drag-data.gif)  
 
-#### Visualize the data
+### Visualize the data
 
 1) Right-click the **Automobile price data (Raw)** and select **Preview Data**
 2) Select the different columns in the data window to view information about each one  
 Each row represents an automobile, and the variables associated with each automobile appear as columns. There are 205 rows and 26 columns in this dataset.
 
-### Prepare the data for training  
+## Prepare the data for training  
 
 Datasets typically require some preprocessing before analysis. You might have noticed some missing values when you inspected the dataset. These missing values must be cleaned so that the model can analyze the data correctly.
 
-#### Remove a column
+### Remove a column
 
 When you train a model, you have to do something about the data that's missing. In this dataset, the **normalized-losses** column is missing many values, so you will exclude that column from the model altogether.
 
@@ -99,7 +99,7 @@ When you train a model, you have to do something about the data that's missing. 
 12) In the component details pane to the right of the canvas, select the **Comment** text box and enter *Exclude normalized losses*  
 Comments will appear on the graph to help you organize your pipeline.
 
-#### Clean missing data
+### Clean missing data
 Your dataset still has missing values after you remove the **normalized-losses** column. You can remove the remaining missing data by using the **Clean Missing Data** component.
 
 1) In the component palette to the left of the canvas, expand the section **Data Transformation**, and find the **Clean Missing Data** component
@@ -114,13 +114,13 @@ Your dataset still has missing values after you remove the **normalized-losses**
 Your pipeline should now look something like this:  
 ![Pipeline example](images/pipeline-clean.png)  
 
-### Training the actual model
+## Training the actual model
 
 Now that you have the components in place to process the data, you can set up the training components.
 
 Because you want to predict price, which is a number, you can use a regression algorithm. For this example, you use a linear regression model.
 
-#### Split the data
+### Split the data
 
 Splitting data is a common task in machine learning. You will split your data into two separate datasets. One dataset will train the model and the other will test how well the model performed.
 
@@ -133,7 +133,7 @@ Splitting data is a common task in machine learning. You will split your data in
 This option splits 70 percent of the data to train the model and 30 percent for testing it. The 70 percent dataset will be accessible through the left output port. The remaining data will be available through the right output port
 6) In the component details pane to the right of the canvas, select the **Comment** box, and enter *Split the dataset into training set (70%) and test set (30%)*
 
-#### Adding the training component
+### Adding the training component
 
 Train the model by giving it a dataset that includes the price. The algorithm constructs a model that explains the relationship between the features and the price as presented by the training data.
 
@@ -150,15 +150,15 @@ This option displays several categories of components that you can use to initia
 9) In the text box, enter *price* to specify the value that your model is going to predict  
 **IMPORTANT**: make sure to not capitalize price
 
-#### Adding the scoring component
+### Adding the scoring component
 After you train your model by using 70 percent of the data, you can use it to score the other 30 percent to see how well your model functions.  
 
 1) Enter score model in the search box to find the **Score Model** component. Drag the component to the pipeline canvas
 2) Connect the output of the **Train Model** component to the left input port of **Score Model**. Connect the test data output (right port) of the previously created **Split Data** component to the right input port of **Score Model**.
 
-### Evaluating the model  
+## Evaluating the model  
 
-#### Adding the evaluate component
+### Adding the evaluate component
 Use the **Evaluate Model** component to evaluate how well your model scored the test dataset.  
 1) Enter *evaluate* in the search box to find the **Evaluate Model** component. Drag the component to the pipeline canvas
 2) Connect the output of the **Score Model** component to the left input of **Evaluate Model**  
@@ -166,7 +166,7 @@ Use the **Evaluate Model** component to evaluate how well your model scored the 
 The final pipeline should look something like this:
 ![Pipeline final  model](images/pipeline-final-graph.png)  
 
-### Submit the pipeline
+## Submit the pipeline
 Now that your pipeline is all setup, you can submit a pipeline run to train your machine learning model. You can submit a valid pipeline run at any point, which can be used to review changes to your pipeline during development.  
 1) At the top of the canvas, select **Submit**
 2) In the **Set up pipeline run** dialog box, select **Create new**  
@@ -178,7 +178,7 @@ You can view run status and details at the top right of the canvas.
 
 If this is the first run, it may take up to 20 minutes for your pipeline to finish running. The default compute settings have a minimum node size of 0, which means that the designer must allocate resources after being idle. Repeated pipeline runs will take less time since the compute resources are already allocated. Additionally, the designer uses cached results for each component to further improve efficiency.
 
-### View scored labels
+## View scored labels
 
 After the run completes, you can view the results of the pipeline run. First, look at the predictions generated by the regression model.
 
@@ -186,7 +186,7 @@ After the run completes, you can view the results of the pipeline run. First, lo
 Here you can see the predicted prices and the actual prices from the testing data.
 ![Result](images/score-result.png)
 
-### Evaluate models
+## Evaluate models
 Use the **Evaluate Model** to see how well the trained model performed on the test dataset.
 
 1) Right-click the **Evaluate Model** component and select **Preview data** > **Evaluation results** to view its output
