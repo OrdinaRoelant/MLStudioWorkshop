@@ -162,6 +162,7 @@ After you train your model by using 70 percent of the data, you can use it to sc
 Use the **Evaluate Model** component to evaluate how well your model scored the test dataset.  
 1) Enter *evaluate* in the search box to find the **Evaluate Model** component. Drag the component to the pipeline canvas
 2) Connect the output of the **Score Model** component to the left input of **Evaluate Model**  
+
 The final pipeline should look something like this:
 ![Pipeline final  model](images/pipeline-final-graph.png)  
 
