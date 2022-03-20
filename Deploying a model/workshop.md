@@ -37,7 +37,7 @@ When you select **Create inference pipeline**, several things happen:
 3) Select the **Azure Container Instance** as the **Compute type**
 4) Select **Deploy**  
 **NOTE:** A success notification above the canvas appears after deployment finishes. It might take a few up to 15 minutes.  
-If you have navigated away from the canvas, you can view the status by clicking the bell icon in the top bar ![Bell](images/bell.png), or navigate to **Endpoints** in the navigation bar on the left and click on a endpoint.  
+If you have navigated away from the canvas, you can view the status by clicking the bell icon in the top bar ![Bell](images/bell.png), or navigate to **Endpoints** in the navigation bar on the left and click on an endpoint.  
 
 ## Test the real-time endpoint  
 After deployment finishes, you can view your real-time endpoint by going to the Endpoints page.  
