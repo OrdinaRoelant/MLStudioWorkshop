@@ -67,7 +67,7 @@ A pipeline runs on a compute target, which is a compute resource that's attached
 
 ## Importing your data 
 
-There are several sample datasets included in the designer for you to experiment with. For this workshop, use Automobile price data (Raw).
+There are several sample datasets included in the designer for you to experiment with. For this workshop, use **Automobile price data (Raw)**.
 
 1) To the left of the pipeline canvas is a palette of datasets and components. Select **Sample datasets** to view the available sample datasets
 2) Select the dataset **Automobile price data (Raw)**, and drag it onto the canvas
