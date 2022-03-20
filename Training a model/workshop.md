@@ -76,7 +76,7 @@ There are several sample datasets included in the designer for you to experiment
 ### Visualize the data
 
 1) Right-click the **Automobile price data (Raw)** and select **Preview Data**  
-You can drag the DatasetOutput panel bigger to make viewing the data easier  
+You can drag the DatasetOutput panel bigger, or click the expand icon , to make viewing the data easier  
 2) Select the different columns in the data window to view information about each one  
 Each row represents an automobile, and the variables associated with each automobile appear as columns. There are 205 rows and 26 columns in this dataset.
 
