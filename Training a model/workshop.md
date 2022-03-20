@@ -59,7 +59,7 @@ You will be taken to the Azure ML studio. Feel free to take the tour, or to do t
 A pipeline runs on a compute target, which is a compute resource that's attached to your workspace. After you create a compute target, you can reuse it for future runs.
 
 1) Next to the pipeline name, select the Gear icon ![Gear](images/gear-icon.png)  at the top of the canvas to open the Settings pane
-2) In the Settings pane to the right of the canvas, if you already have an available compute target, you can select it to run this pipeline.
+2) In the Settings pane to the right of the canvas, select **Create Azure ML compute instance**, or if you already have an available compute target, you can select it to run this pipeline
 3) Enter a name for the compute resource using your prefix from the naming convention: [prefix]-compute
 4) **Virtual machine type** should be CPU and pick **Standard_DS3_v2** as the virtual machine size
 5) Select **Create**
