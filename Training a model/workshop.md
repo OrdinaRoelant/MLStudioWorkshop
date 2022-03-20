@@ -151,9 +151,9 @@ This option displays several categories of components that you can use to initia
 ![Pipeline training model](images/pipeline-train-model.png)  
 6) Select the **Train Model** component
 7) In the component details pane to the right of the canvas, select **Edit column** selector.
-8) In the **Label column** dialog box, expand the drop-down menu and select **Column names**\
-9) In the text box, enter *price* to specify the value that your model is going to predict  
-**IMPORTANT**: make sure to not capitalize price
+8) In the **Label column** dialog box, expand the drop-down menu and select **Column names**
+9) In the text box, enter *price* to specify the value that your model is going to predict and select **Save** 
+**IMPORTANT**: make sure to not capitalize *price*
 
 ### Adding the scoring component
 After you train your model by using 70 percent of the data, you can use it to score the other 30 percent to see how well your model functions.  
