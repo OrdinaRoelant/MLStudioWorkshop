@@ -191,7 +191,8 @@ After the run completes, you can view the results of the pipeline run. First, lo
 
 1) Right-click the **Score Model** component, and select **Preview data** > **Scored dataset** to view its output.  
 Here you can see the predicted prices and the actual prices from the testing data.
-![Result](images/score-result.png)
+![Result](images/score-result.png)  
+Since *price* is the value we wanted to predict, the closer the value in **Scored Labels** is to the *price* value, the better the model performed. 
 
 ## Evaluate models
 Use the **Evaluate Model** to see how well the trained model performed on the test dataset.
