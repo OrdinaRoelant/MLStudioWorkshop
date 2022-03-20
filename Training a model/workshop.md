@@ -102,7 +102,7 @@ When you train a model, you have to do something about the data that's missing. 
 ![Exclude columns](images/exclude-column.png)  
 11) Select the **Select Columns in Dataset** component
 12) In the component details pane to the right of the canvas, select the **Comment** text box and enter *Exclude normalized losses*  
-Comments will appear on the graph to help you organize your pipeline.
+Comments will appear on the graph to help you organize your pipeline. Notice the comment is now displayed in the component box on the canvas.  
 
 ### Clean missing data
 Your dataset still has missing values after you remove the **normalized-losses** column. You can remove the remaining missing data by using the **Clean Missing Data** component.
