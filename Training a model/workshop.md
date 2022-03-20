@@ -145,7 +145,7 @@ Train the model by giving it a dataset that includes the price. The algorithm co
 1) In the component palette, expand **Machine Learning Algorithms**  
 This option displays several categories of components that you can use to initialize learning algorithms.
 2) Select **Regression** > **Linear Regression**, and drag it to the pipeline canvas
-3) In the component palette, expand the section **Module training**, and drag the **Train Model** component to the canvas
+3) In the component palette, expand the section **Model training**, and drag the **Train Model** component to the canvas
 4) Connect the output of the **Linear Regression** component to the left input of the **Train Model** component
 5) Connect the training data output (left port) of the **Split Data** component to the right input of the **Train Model** component
 ![Pipeline training model](images/pipeline-train-model.png)  
