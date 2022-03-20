@@ -27,7 +27,7 @@ Before you configure your experiment, upload your data file to your workspace in
 2) On the **Basic info** form, give your dataset a name respecting naming convention and provide an optional description. The automated ML interface currently only supports TabularDatasets, so the dataset type should default to *Tabular*
 3) Select **Next** on the bottom left
 4) On the **Datastore and file selection** form, select the default datastore that was automatically set up during your workspace creation, **workspaceblobstore (Azure Blob Storage)**. This is where you'll upload your data file to make it available to your workspace
-5) Select **Upload files** from the **Upload** drop-down
+5) Select **Browse files** from the **Browse** drop-down
 6) Choose the **bankmarketing_train.csv** file from this repository
 7) Select **Next** on the bottom left, to upload it to the default container that was automatically set up during your workspace creation  
 **NOTE:** When the upload is complete, the Settings and preview form is pre-populated based on the file type.
