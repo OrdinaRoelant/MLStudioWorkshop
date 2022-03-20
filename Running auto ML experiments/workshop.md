@@ -90,19 +90,19 @@ The following navigates through the **Details** and the **Metrics** tabs to view
 ![Create dataset](images/run-detail.gif)  
 
 ### Model explanations
-While you wait for the models to complete, you can also take a look at model explanations and see which data features (raw or engineered) influenced a particular model's predictions.  
+After the run is complete, and that can take up to 30 minutes, you can also take a look at model explanations and see which data features (raw or engineered) influenced a particular model's predictions.  
 
 These model explanations can be generated on demand, and are summarized in the model explanations dashboard that's part of the Explanations (preview) tab.  
 
 To generate model explanations,
 1) Select **Run 1** at the top to navigate back to the **Models** screen
 2) Select the **Models** tab
-3) For this tutorial, select the first **MaxAbsScaler**, **LightGBM** model
+3) For this workshop, select the first **MaxAbsScaler, LightGBM** model
 4) Select the **Explain model** button at the top. On the right, the **Explain model** pane appears
-5) Select the **automl-compute** that you created previously. This compute cluster initiates a child run to generate the model explanations
+5) Select the **Compute Instance** that you created previously. This compute instance is also used to generate the model explanations
 6) Select **Create** at the bottom. A green success message appears towards the top of your screen
-7) Select the **Explanations (preview)** button. This tab populates once the explainability run completes
-8) On the left hand side, expand the pane and select the row that says **raw** under **Features**
+7) Select the **Explanations (preview)** button. This tab populates once the explainability run completes which takes about a minute
+8) On the left hand side, expand the pane (next to the **Explanation ID** label) and select the row that says **raw** under **Features**
 9) Select the **Aggregate feature importance** tab on the right. This chart shows which data features influenced the predictions of the selected model.  
 In this example, the duration appears to have the most influence on the predictions of this model.
 ![Create dataset](images/model-explanation-dashboard.png) 
@@ -110,7 +110,7 @@ In this example, the duration appears to have the most influence on the predicti
 ## Deploy the recommended model 
 The automated machine learning interface allows you to deploy the best model as a web service in a few steps. Deployment is the integration of the model so it can predict on new data and identify potential areas of opportunity.  
 
-For this experiment, deployment to a web service means that the financial institution now has an iterative and scalable web solution for identifying potential fixed term deposit customers.  
+For this experiment, deployment to a web service means that the financial institution now has an interative and scalable web solution for identifying potential fixed term deposit customers.  
 
 Check to see if your experiment run is complete. To do so, navigate back to the parent run page by selecting Run 1 at the top of your screen. A **Completed** status is shown on the top left of the screen.  
 
