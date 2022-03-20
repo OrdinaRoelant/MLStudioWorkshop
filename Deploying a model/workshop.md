@@ -28,14 +28,16 @@ When you select **Create inference pipeline**, several things happen:
 - Training components like **Train Model** and **Split Data** are removed.
 - The saved trained model is added back into the pipeline.
 - **Web Service Input** and **Web Service Output** components are added. These components show where user data enters the pipeline and where data is returned.
-2) Select **Submit**, and use the same compute target and experiment that you used in part one
+2) Select **Submit**, and use the same compute target and experiment that you used in part one  
+**NOTE:** Make sure the experiment run in done, before continuing with deploying the endpoint. While the experiment is running, the *Submit* button reads *Cancel run*.
 
 ## Deploy the real-time endpoint  
 1) Select **Deploy**
 2) Enter a name for the endpoint respecting the naming convention: [prefix]-endpoint
 3) Select the **Azure Container Instance** as the **Compute type**
 4) Select **Deploy**  
-**NOTE:** A success notification above the canvas appears after deployment finishes. It might take a few minutes.
+**NOTE:** A success notification above the canvas appears after deployment finishes. It might take a few up to 15 minutes.  
+If you have navigated away from the canvas, you can view the status by clicking the bell icon in the top bar ![Bell](images/bell.png), or navigate to **Endpoints** in the navigation bar on the left and click on a endpoint.  
 
 ## Test the real-time endpoint  
 After deployment finishes, you can view your real-time endpoint by going to the Endpoints page.  
