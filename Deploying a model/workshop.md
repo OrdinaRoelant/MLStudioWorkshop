@@ -48,4 +48,15 @@ In the **Consume** tab, you can find sample consumption code, security keys, and
 In the **Deployment logs** tab, you can find the detailed deployment logs of your real-time endpoint  
 2) To test your endpoint, go to the **Test** tab. From here, you can enter test data and select Test verify the output of your endpoint  
 
+## Wait, wut?
+Of course this is a kind of happy flow path and real-world scenarios pose real-world problems, but it is good to realize what exactly we did the past two parts, we:
+
+1) Created a pipeline through which we can train new versions of our model
+2) Could fine-tune every step and add extra steps if necessary 
+3) Created our first machine learning model that actually predicts values
+4) Converted the training pipeline to an inferencing pipeline, making it possible to:
+5) Deploy(ed) our machine learning model as a webservice in a Docker container, hosted as an Azure Container Instance  
+
+Pretty cool, eh?  
+
 It is now time for part III: [Running automated machine learning experiments](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Running%20auto%20ML%20experiments/workshop.md)
