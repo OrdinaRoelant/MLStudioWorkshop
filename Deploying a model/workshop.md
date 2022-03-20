@@ -59,4 +59,4 @@ Of course this is a kind of happy flow path and real-world scenarios pose real-w
 
 Pretty cool, eh?  
 
-In the case of the car prices prediction, you could have used [a ML cheat sheet](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet) to pinpoint us in the correct family of algorithms, or maybe even the correct algorithm. However sometimes it is not so clear upfront and that is where part III comes in: [Running automated machine learning experiments](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Running%20auto%20ML%20experiments/workshop.md)
+In the case of the car prices prediction, you could have used [a ML cheat sheet](https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet){:target="_blank"} to pinpoint us in the correct family of algorithms, or maybe even the correct algorithm. However sometimes it is not so clear upfront and that is where part III comes in: [Running automated machine learning experiments](https://github.com/OrdinaRoelant/MLStudioWorkshop/blob/master/Running%20auto%20ML%20experiments/workshop.md)
