@@ -40,7 +40,7 @@ You need an Azure Machine Learning workspace to use the designer. The workspace 
 | Storage account  | Leave default, creating new |
 | Key Vault | Leave default, creating new |
 | Application insights | Leave default, creating new |
-| Container Registry | crworkshop |
+| Container Registry | Leave none, we will create this later |
 
 7) When you're finished configuring the workspace, select Review + Create.
 8) Review the settings and make any other changes or corrections. When you're satisfied with the settings, select **Create**  
