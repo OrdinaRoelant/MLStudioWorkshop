@@ -49,7 +49,7 @@ When the process is finished, and this can take several minutes, a deployment su
 
 ### Create the pipeline
 1) Click on the **Studio web URL** in the workspace overview. It should look like *ml.azure.com/?tlid=......*  
-You will be taken to the Azure ML studio. Feel free to take the tour, or to do this a later time.  
+You will be taken to the Azure ML studio. Feel free to take the tour, or to do this at a later time.  
 2) From the ML studio, select **Designer**  
 ![Designer > Easy-to-use prebuilt components](images/launch-designer.png)
 3) Select **Easy-to-use prebuilt components**
