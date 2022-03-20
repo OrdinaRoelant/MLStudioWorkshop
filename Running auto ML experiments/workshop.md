@@ -78,7 +78,8 @@ After you load and configure your data, you can set up your experiment. This set
 
 **NOTE:** Preparation takes 10-15 minutes to prepare the experiment run. Once running, it takes 2-3 minutes more for each iteration.
 
-In production, you'd likely walk away for a bit. But for this tutorial, we suggest you start exploring the tested algorithms on the Models tab as they complete while the others are still running.
+In production, you'd likely walk away for a bit. But for this tutorial, we suggest you start exploring the tested algorithms on the Models tab as they complete while the others are still running.  
+Wait a couple of minutes for the run to actually start (check the **Status** on the **Details** tab) and then refresh the Models tab to see the action unfold.  
 
 ## Explore model details  
 Navigate to the **Models** tab to see the algorithms (models) tested. By default, the models are ordered by metric score as they complete. For this tutorial, the model that scores the highest based on the chosen **AUC_weighted** metric is at the top of the list.
