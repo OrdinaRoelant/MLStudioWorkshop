@@ -175,6 +175,7 @@ The final pipeline should look something like this:
 Now that your pipeline is all setup, you can submit a pipeline run to train your machine learning model. You can submit a valid pipeline run at any point, which can be used to review changes to your pipeline during development.  
 1) At the top of the canvas, select **Submit**  
 **NOTE:** If you created a new compute target earlier, you will get a message *Select compute target in settings panel*. We still need to select the compute target by circling back to [Set the default compute target](#set-the-default-compute-target)  
+After selection, select **Submit** again and continue with step 2  
 2) In the **Set up pipeline run** dialog box, select **Create new**  
 **NOTE:** Experiments group similar pipeline runs together. If you run a pipeline multiple times, you can select the same experiment for successive runs  
      - For **New experiment Name**, enter **[prefix]-Tutorial-CarPrices**. Substituting the prefix for your personal prefix.
