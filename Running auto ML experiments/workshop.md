@@ -112,14 +112,12 @@ The automated machine learning interface allows you to deploy the best model as 
 
 For this experiment, deployment to a web service means that the financial institution now has an interative and scalable web solution for identifying potential fixed term deposit customers.  
 
-Check to see if your experiment run is complete. To do so, navigate back to the parent run page by selecting Run 1 at the top of your screen. A **Completed** status is shown on the top left of the screen.  
-
 Once the experiment run is complete, the **Details** page is populated with a **Best model summary** section. In this experiment context, **VotingEnsemble** is considered the best model, based on the **AUC_weighted** metric.  
 
-**NOTE:** We deploy this model, but be advised, deployment takes about 20 minutes to complete. The deployment process entails several steps including registering the model, generating resources, and configuring them for the web service.  
+**NOTE:** We deploy this model, but be advised, deployment takes about 20 minutes to complete. The deployment process entails several steps including registering the model, generating resources, and configuring them for the web service. In the end you get the same result as from part II of this workshop.   
 
 1) Select **VotingEnsemble** to open the model-specific page  
-2) Select the **Deploy** button in the top-left  
+2) Select the **Deploy** button in the top-left and choose **Deploy to web service**
 3) Populate the Deploy a model pane as follows:  
 
 | Field | Value |
@@ -135,4 +133,6 @@ For this example, we use the defaults provided in the Advanced menu.
 4) Select **Deploy** 
 A green success message appears at the top of the **Run** screen, and in the **Model summary** pane, a status message appears under **Deploy status**. Select **Refresh** periodically to check the deployment status.  
 
-Now you have an operational web service to generate predictions.
+Now you have a seond operational web service to generate predictions. 🙌  
+
+Feel free to browse around a bit more in the Azure machine learning Studio, maybe try to use the **Designer** with another pre-supplied dataset. Happy machine learning!  
