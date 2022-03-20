@@ -42,7 +42,7 @@ You need an Azure Machine Learning workspace to use the designer. The workspace 
 | Application insights | Leave default, creating new |
 | Container Registry | Leave none, we will create this later |
 
-7) When you're finished configuring the workspace, select Review + Create.
+7) When you're finished configuring the workspace, select **Review + Create**.
 8) Review the settings and make any other changes or corrections. When you're satisfied with the settings, select **Create**  
 When the process is finished, and this can take several minutes, a deployment success message appears.
 9) To view the new workspace, select **Go to resource**
