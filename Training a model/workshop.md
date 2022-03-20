@@ -152,7 +152,7 @@ This option displays several categories of components that you can use to initia
 6) Select the **Train Model** component
 7) In the component details pane to the right of the canvas, select **Edit column** selector.
 8) In the **Label column** dialog box, expand the drop-down menu and select **Column names**
-9) In the text box, enter *price* to specify the value that your model is going to predict and select **Save** 
+9) In the text box, enter *price* to specify the value that your model is going to predict and select **Save**  
 **IMPORTANT**: make sure to not capitalize *price*
 
 ### Adding the scoring component
