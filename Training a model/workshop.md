@@ -14,7 +14,8 @@ In this part we are going to train a model from scratch by:
 ✔ [Evaluating the model](#evaluating-the-model)  
 
 ## Naming convention
-For this workshop we are going to share an Azure subscription and we will be using the same resource group. It is therefore highly recommended to prefix your resources names with you initials and age. In my case, for Roelant Dieben, 43 years old, I am going to prefix rd43-[resource name]
+Naming conventions are always important, but if you are using an Azure pass subscription, the information on the naming convention is not applicable.
+For the people that will be sharing an Azure subscription and resource group, we highly recommend to prefix your resources names with you initials and age. In my case, for Roelant Dieben, 43 years old, I am going to prefix rd43-[resource name]
 
 ## Create a new pipeline
 Azure Machine Learning pipelines organize multiple machine learning and data processing steps into a single resource. Pipelines let you organize, manage, and reuse complex machine learning workflows across projects and users.
@@ -156,7 +157,7 @@ This option displays several categories of components that you can use to initia
 **IMPORTANT**: make sure to not capitalize *price*
 
 ### Adding the scoring component
-After you train your model by using 70 percent of the data, you can use it to score the other 30 percent to see how well your model functions.  
+Since we will be training the model by using 70 percent of the data, you can use it to score the other 30 percent to see how well your model functions.  
 
 1) Enter score model in the search box to find the **Score Model** component. Drag the component to the pipeline canvas
 2) Connect the output of the **Train Model** component to the left input port of **Score Model**. Connect the test data output (right port) of the previously created **Split Data** component to the right input port of **Score Model**.
