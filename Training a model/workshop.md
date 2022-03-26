@@ -34,8 +34,8 @@ You need an Azure Machine Learning workspace to use the designer. The workspace 
 
 | Field | Description |
 | ----------- | ----------- |
-| Subscription | 6db2ddc7-e573-44a2-b036-6438722a11a2 |
-| Resource group | rg-accelerator-days |
+| Subscription | Azure Pass subscription |
+| Resource group | rg-global-ai |
 | Workspace name | Do not forget the naming convention! Suggestion: **[prefix]-workspace** |
 | Region | West Europe |
 | Storage account  | Leave default, creating new |
